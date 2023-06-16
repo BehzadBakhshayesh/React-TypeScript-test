@@ -1,0 +1,22 @@
+.home {
+  .card-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 236px;
+    .img-wrappr {
+      height: 150px;
+      width: 120px;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+  .remove-button {
+    cursor: pointer;
+    color: tomato;
+    font-weight: bold;
+  }
+}
